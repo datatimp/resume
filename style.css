@@ -10,7 +10,9 @@
 /** MARK: Variables
 */
 :root {
-    --border-color: #525151;
+    --color-dark-grey: #525151;
+    --color-light-grey: #888888;
+    --color-faint-grey: #d3d3d3;
 }
 
 /** MARK: Styles
@@ -44,25 +46,26 @@ h1 {
     font-size: 2.5em;
 }
 
-.icon {
-    margin-right: 3px;
+img {
+    width: 15px;
 }
 
 .contact {
-    text-align: center;
-    font-family: "Source Code Pro", monospace;
-    font-size: 0.75em;
-    padding: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
 }
 
-.pipe {
-    padding: 0px 10px 0px 10px;
+.github {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.hr {
-    border: 0;
-    height: 1px;
-    background: #333;
+.email {
+    margin-right: 5px;
+}
+
+.linkedin {
+    margin-left: 5px;
 }
 
 /** MARK: Summary
@@ -78,8 +81,8 @@ h1 {
 h2 {
     font-family: "Fraunces", serif;
     font-size: 1.5em;
-    border-top: 3px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
+    border-top: 3px solid var(--color-dark-grey);
+    border-bottom: 1px solid var(--color-dark-grey);
     padding: 10px 0px 10px 0px;
     margin-top: 2.0em;
 }
@@ -180,27 +183,30 @@ p, li {
 
 
 .footer::before,
-.footer::after {
+.footer::after,
+.contact::before,
+.contact::after {
     content: '';
     flex-grow: 1;
     height: 1px;
-    background-color: #d3d3d3; /* Light grey */
+    background-color: var(--color-faint-grey);
 }
 
 
-.footer::before {
+.footer::before,
+.contact::before {
     margin-right: 15px;
 }
 
 
-.footer::after {
+.footer::after,
+.contact::after {
     margin-left: 15px;
 }
 
 
 .footer span {
-
     font-family: "Fraunces", serif;
-    color: #888;
+    color: var(--color-light-grey);
     font-size: 1.2em;
 }
