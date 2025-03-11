@@ -1,8 +1,3 @@
----
-title: Tim Pevey Resume
-date: 03/10/2025
----
-
 # TIM PEVEY
 
 ---
