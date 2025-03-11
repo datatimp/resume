@@ -24,13 +24,12 @@ html {
     max-width: 700px;
     margin: 0 auto;
     font-size: 16px;
-    padding-bottom: 25px;
 }
 
-.body {
+body {
     background-image: url("/assets/whitepaper.jpg");
     background-size: 12%;
-    text-align: center;
+    padding-bottom: 50px;
 }
 
 /** MARK: Name & Contact Info
@@ -102,22 +101,106 @@ p, li {
     line-height: 1.5;
 }
 
+.job-group {
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-areas:
+        "job-title"
+        "prof-details"
+        "list";
+        margin-bottom: 20px;
+}
+
 .job-title {
+    grid-area: job-title;
+}
+
+.job-title, .degree {
     font-family: "Fraunces", serif;
     font-size: 1.1em;
     font-weight: 600;
+    padding-right: 5px;
 }
 
-.company {
-    font-family: "Source Serif 4", serif;
-    font-style: italic;
+.prof-details {
+    grid-area: prof-details;
+}
+
+.job-group ul {
+    grid-area: list;
 }
 
 .dates {
     font-family: "Source Serif 4", serif;
-    justify-self: end;
+    font-style: italic;
+    font-size: 0.9em;
+    color:  rgb(17, 152, 206);
 }
+
+.company, .school {
+    color:  rgb(17, 152, 206);
+    font-weight: 600;
+    font-size: 0.9em;
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+    }
 
 .technical-proficiencies p:not(:last-child) {
     margin-bottom: -40px;
+}
+
+.school-group {
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-areas:
+        "degree"
+        "edu-details"
+        "list";
+    margin-bottom: 20px;
+}
+
+.degree {
+    grid-area: degree;
+}
+
+.edu-details {
+    grid-area: edu-details;
+}
+
+.school-group ul {
+    grid-area: list;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+
+
+.footer::before,
+.footer::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: #d3d3d3; /* Light grey */
+}
+
+
+.footer::before {
+    margin-right: 15px;
+}
+
+
+.footer::after {
+    margin-left: 15px;
+}
+
+
+.footer span {
+
+    font-family: "Fraunces", serif;
+    color: #888;
+    font-size: 1.2em;
 }
