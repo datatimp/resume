@@ -1,5 +1,5 @@
 # TIM PEVEY
-datatimp @ gmail.com | [GitHub](https://github.com/WrinkleRelease) | [LinkedIn](https://linkedin.com/timothypevey)
+datatimp @ gmail.com | [GitHub](https://github.com/WrinkleRelease) | [LinkedIn](https://www.linkedin.com/in/timothypevey/)
 
 <br>
 
