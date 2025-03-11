@@ -7,7 +7,7 @@ date: 03/10/2025
 
 ---
 
-404.210.4798 | datatimp@gmail.com | [GitHub](https://github.com/WrinkleRelease) | [LinkedIn](https://linkedin.com/timothypevey)
+datatimp @ gmail.com | [GitHub](https://github.com/WrinkleRelease) | [LinkedIn](https://linkedin.com/timothypevey)
 
 ---
 
