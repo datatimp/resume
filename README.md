@@ -1,14 +1,15 @@
 # TIM PEVEY
-
----
-
 datatimp @ gmail.com | [GitHub](https://github.com/WrinkleRelease) | [LinkedIn](https://linkedin.com/timothypevey)
 
----
+<br>
 
 Experienced content developer with a background in creative writing and technical communication. Skilled in data analysis and visualization, with a strong foundation in statistical methods. Proficient in Adobe Creative Suite and versed in web development technologies. Strong communicator with a proven track record of cross-functional team collaboration.
 
+<br>
+
+---
 ### Core Competencies
+---
 
 **Content Development**
 
@@ -31,7 +32,13 @@ Experienced content developer with a background in creative writing and technica
 - HTML/CSS Development & Web Implementation
 - Version Control (Git)
 
+<br>
+
+---
+
 ### Professional Experience
+
+---
 
 **Head of Marketing** | Atlanta Office Liquidators, Inc. | 2017-2025
 
@@ -70,14 +77,26 @@ Experienced content developer with a background in creative writing and technica
 
 - Developed and taught writing curriculum for advanced students
 
+<br>
+
+---
+
 ### Technical Expertise
+
+---
 
 - **Design & Production:** Adobe Suite (Illustrator, Photoshop, InDesign, InCopy, Premiere), Quark Xpress
 - **Development:** HTML, CSS, Git, VS Code
 - **Data & Analysis:** R Studio, Statistical Methods, Data Visualization
 - **Specialized Tools:** Fontforge, Fontlab Studio 5, Aseprite
 
+<br>
+
+---
+
 ### Education
+
+---
 
 **Master of Arts, Language Arts & Literary Studies** | Georgia State University | 2007
 
