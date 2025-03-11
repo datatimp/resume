@@ -1,0 +1,123 @@
+/* Tim Pevey Resume 2025 */
+
+/** MARK: Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,100..900,50&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+/** MARK: Variables
+*/
+:root {
+    --border-color: #525151;
+}
+
+/** MARK: Styles
+*/
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+html {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.body {
+    background-image: url("/assets/whitepaper.jpg");
+    background-size: 12%;
+    text-align: center;
+}
+
+/** MARK: Name & Contact Info
+*/
+
+h1 {
+    text-align: center;
+}
+
+.first-name, .last-name {
+    font-family: "Fraunces", serif;
+    font-size: 2.5em;
+}
+
+.icon {
+    margin-right: 3px;
+}
+
+.contact {
+    justify-self: center;
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.75em;
+    padding: 10px 0px 10px 0px;
+}
+
+.pipe {
+    padding: 0px 10px 0px 10px;
+}
+
+.hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+
+/** MARK: Summary
+*/
+
+.summary p {
+    padding-top: 1.5em;
+}
+
+/** MARK: Section Styles
+*/
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-size: 1.5em;
+    border-top: 3px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px 0px 10px 0px;
+    margin-top: 2.0em;
+}
+
+.sub-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.summary.p {
+    margin: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+p, li {
+    font-family: "Source Code Pro", serif;
+    font-size: 1.0em;
+    line-height: 1.5;
+}
+
+.job-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.company {
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+}
+
+.dates {
+    font-family: "Source Serif 4", serif;
+    justify-self: end;
+}
+
+.technical-proficiencies p:not(:last-child) {
+    margin-bottom: -40px;
+}
