@@ -175,6 +175,11 @@ p, li {
     grid-area: list;
 }
 
+.thesis {
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+}
+
 .footer {
     display: flex;
     align-items: center;
