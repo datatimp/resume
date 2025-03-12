@@ -29,8 +29,9 @@ html {
 }
 
 body {
-    background-image: url("/assets/whitepaper.jpg");
-    background-size: 12%;
+    background-image: url("https://raw.githubusercontent.com/WrinkleRelease/resume/refs/heads/main/assets/whitepaper.jpg");
+    background-size: 10%;
+    background-color: #eeeeee;
     padding-bottom: 50px;
 }
 
