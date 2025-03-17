@@ -100,7 +100,7 @@ Experienced content developer with a background in creative writing and technica
 
 **Master of Arts, Language Arts & Literary Studies** | Georgia State University | 2007
 
-- Thesis _From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth_
+- Thesis *From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth*
 - Specialized in pattern recognition across textual analysis, critical theory, and cultural trends
 
 **Bachelor of Arts, Film & Television Production** | University of Georgia | 2000
@@ -115,8 +115,10 @@ Experienced content developer with a background in creative writing and technica
 ---
 
 **Technical Writing**
+- [The user manual for *Looking Glass*](https://wrinklerelease.github.io/assets/Looking%20Glass%20Manual_screen.pdf), un-released non-linear video editing software. Designed and written for print and screen on Quark Xpress.
 
 **Academic Writing**
+- [*From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth*](https://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1018&amp;context=english_theses)
 
 **Creative Writing**
 - [Spec script](https://wrinklerelease.github.io/resume/assets/Wings%20-%20Tastes%20Like%20Chicken%20-%20Spec%20Script.html) for the multi-camera sitcom, *Wings* (1990-1997)
