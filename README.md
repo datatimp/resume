@@ -107,3 +107,17 @@ Experienced content developer with a background in creative writing and technica
 
 - Focused on cross-medium communication strategies and audience analysis
 - Authored spec-scripts for both television and film
+
+---
+
+### Writing Samples
+
+---
+
+**Technical Writing**
+
+**Academic Writing**
+
+**Creative Writing**
+- [Spec script](https://wrinklerelease.github.io/resume/assets/Wings%20-%20Tastes%20Like%20Chicken%20-%20Spec%20Script.html) for the multi-camera sitcom, *Wings* (1990-1997)
+- [Pilot script for *Spaghetti Junction*](https://wrinklerelease.github.io/resume/assets/Spaghetti%20Junction%20-%20Ep01%20-%20Storage%20Wars.html), an original single-camera sitcom
