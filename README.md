@@ -1,5 +1,5 @@
 # TIM PEVEY
-datatimp @ gmail.com | [GitHub](https://github.com/WrinkleRelease) | [LinkedIn](https://www.linkedin.com/in/timothypevey/)
+datatimp @ gmail.com | [GitHub](https://github.com/datatimp) | [LinkedIn](https://www.linkedin.com/in/timothypevey/)
 
 <br>
 
@@ -40,7 +40,7 @@ Experienced content developer with a background in creative writing and technica
 
 ---
 
-**Head of Marketing** | Atlanta Office Liquidators, Inc. | 2017-2025
+**Marketing, Data and Communications Specialist** | Atlanta Office Liquidators, Inc. | 2017-2025
 
 - Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation by 35%
 - Authored comprehensive training materials for Microsoft Business Central, simplifying complex technical concepts for non-technical sales staff
