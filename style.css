@@ -13,6 +13,7 @@
     --color-dark-grey: #525151;
     --color-light-grey: #888888;
     --color-faint-grey: #d3d3d3;
+    --color-cool-blue: #1198ce;
 }
 
 /** MARK: Styles
@@ -22,9 +23,11 @@ a {
 }
 
 html {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: none;
     font-size: 16px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 body {
@@ -33,6 +36,7 @@ body {
     background-color: #eeeeee;
     padding-bottom: 50px;
 }
+
 
 /** MARK: Name & Contact Info
 */
@@ -68,6 +72,52 @@ img {
     margin-left: 5px;
 }
 
+hr {
+    height: 1px;
+    background-color: var(--color-faint-grey);
+    border: none;
+}
+
+/** MARK: Grid Layout 
+*/
+
+/* Desktop Layout for Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+main {
+    grid-area: 1;
+}
+
+/* Desktop Layout for Sidebar */
+aside {
+    grid-column: 2;
+    border: 1px solid var(--color-faint-grey);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    align-self: start;
+}
+
+/* Responsive Layout for Sidebar */
+@media (max-width: 768px) {
+    .grid-container {
+        display: block;
+    }
+
+    main {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        grid-column: auto;
+        width: 100%;
+        box-shadow: none;
+    }
+}
+
 /** MARK: Summary
 */
 
@@ -87,6 +137,24 @@ h2 {
     margin-top: 2.0em;
 }
 
+.sidebar-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.sidebar-project {
+ font-family: "Source Code Pro", serif;
+ color: var(--color-cool-blue);
+ font-size: 0.9em;
+ font-weight: normal;
+}
+
+.sidebar-text {
+    font-family: "Source Serif", serif;
+    font-size: inherit;
+}
+
 .sub-title {
     font-family: "Fraunces", serif;
     font-size: 1.1em;
@@ -99,7 +167,7 @@ h2 {
 }
 
 p, li {
-    font-family: "Source Code Pro", serif;
+    font-family: "Source Code Pro", monospace;
     font-size: 1.0em;
     line-height: 1.5;
 }
