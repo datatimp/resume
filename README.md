@@ -3,13 +3,20 @@ datatimp @ gmail.com | [GitHub](https://github.com/datatimp) | [LinkedIn](https:
 
 <br>
 
-Experienced content developer with a background in creative writing and technical communication. Skilled in data analysis and visualization, with a strong foundation in statistical methods. Proficient in Adobe Creative Suite and versed in web development technologies. Strong communicator with a proven track record of cross-functional team collaboration.
+Experienced content developer skilled in data analysis and visualization, with a background in creative writing and technical communication. Proficient in Adobe Creative Suite and versed in web development technologies. Strong communicator with a proven track record of cross-functional team collaboration.
 
 <br>
 
 ---
 ### Core Competencies
 ---
+
+**Technical Skills**
+
+- Data Analysis & Visualization (R Programming)
+- Statistical Analysis & Pattern Recognition
+- HTML/CSS Development & Web Implementation
+- Version Control (Git)
 
 **Content Development**
 
@@ -24,13 +31,6 @@ Experienced content developer with a background in creative writing and technica
 - Cross-functional Team Communication
 - Technical Writing & Content Development
 - Print Production & Digital Media Optimization
-
-**Technical Skills**
-
-- Data Analysis & Visualization (R Programming)
-- Statistical Analysis & Pattern Recognition
-- HTML/CSS Development & Web Implementation
-- Version Control (Git)
 
 <br>
 
@@ -115,11 +115,10 @@ Experienced content developer with a background in creative writing and technica
 ---
 
 **Technical Writing**
-- [The user manual for *Looking Glass*](https://wrinklerelease.github.io/assets/Looking%20Glass%20Manual_screen.pdf), un-released non-linear video editing software. Designed and written for print and screen on Quark Xpress.
+- [The user manual for *Looking Glass*](/assets/docs/lookingGlassManual_screen.pdf), un-released non-linear video editing software. Designed and written for print and screen on Quark Xpress.
 
 **Academic Writing**
-- [*From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth*](https://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1018&amp;context=english_theses)
+- [*From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth*](assets/docs/thesis_ScholarWorks_reduced.pdf)
 
 **Creative Writing**
-- [Spec script](https://wrinklerelease.github.io/resume/assets/Wings%20-%20Tastes%20Like%20Chicken%20-%20Spec%20Script.html) for the multi-camera sitcom, *Wings* (1990-1997)
-- [Pilot script for *Spaghetti Junction*](https://wrinklerelease.github.io/resume/assets/Spaghetti%20Junction%20-%20Ep01%20-%20Storage%20Wars.html), an original single-camera sitcom
+- [Spec script](assets/docs/wings_tastesLikeChicken_specScript.html) for the multi-camera sitcom, *Wings* (1990-1997)
