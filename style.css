@@ -6,7 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-
 /** MARK: Variables
 */
 :root {
@@ -16,17 +15,16 @@
     --color-cool-blue: #1198ce;
 }
 
-/** MARK: Styles
+/** MARK: Base Styles
 */
 a {
     color: #333;
 }
 
 html {
-    max-width: none;
+    max-width: 900px;
     font-size: 16px;
     padding: 20px;
-    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -37,40 +35,10 @@ body {
     padding-bottom: 50px;
 }
 
-
-/** MARK: Contact Info
-*/
-
-h1 {
-    text-align: center;
-}
-
-.first-name, .last-name {
-    font-family: "Fraunces", serif;
-    font-size: 2.5em;
-}
-
-img {
-    width: 25px;
-    height: 25px;
-}
-
-.contact {
-    display: flex;
-    align-items: center;
-}
-
-.github {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.email {
-    margin-right: 5px;
-}
-
-.linkedin {
-    margin-left: 5px;
+p, li {
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.0em;
+    line-height: 1.5;
 }
 
 hr {
@@ -79,10 +47,61 @@ hr {
     border: none;
 }
 
-/** MARK: Grid Layout 
+/** MARK: Header & Contact
 */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-/* Desktop Layout for Grid */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+    order: 1;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.profile-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 0;
+    text-align: left;
+}
+
+.first-name, .last-name {
+    font-family: "Fraunces", serif;
+    font-size: 2.5em;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact a img {
+    width: 25px;
+    height: 25px;
+}
+
+/** MARK: Grid Layout
+*/
 .grid-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -90,45 +109,19 @@ hr {
 }
 
 main {
-    grid-area: 1;
 }
 
-/* Desktop Layout for Sidebar */
 aside {
     grid-column: 2;
     border: 1px solid var(--color-faint-grey);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px;
+    border-radius: 20px;
+    padding: 25px 15px 25px 15px;
+    margin-top: 30px;
     align-self: start;
-}
-
-/* Responsive Layout for Sidebar */
-@media (max-width: 768px) {
-    .grid-container {
-        display: block;
-    }
-
-    main {
-        margin-bottom: 20px;
-    }
-
-    aside {
-        grid-column: auto;
-        width: 100%;
-        box-shadow: none;
-    }
-}
-
-/** MARK: Summary
-*/
-
-.summary p {
-    padding-top: 1.5em;
 }
 
 /** MARK: Section Styles
 */
-
 h2 {
     font-family: "Fraunces", serif;
     font-size: 1.5em;
@@ -138,22 +131,8 @@ h2 {
     margin-top: 2.0em;
 }
 
-.sidebar-title {
-    font-family: "Fraunces", serif;
-    font-size: 1.1em;
-    font-weight: 600;
-}
-
-.sidebar-project {
- font-family: "Source Code Pro", serif;
- color: var(--color-cool-blue);
- font-size: 0.9em;
- font-weight: 600;
-}
-
-.sidebar-text {
-    font-family: "Source Serif", serif;
-    font-size: inherit;
+.summary p {
+    padding-top: 1.5em;
 }
 
 .sub-title {
@@ -162,17 +141,28 @@ h2 {
     font-weight: 600;
 }
 
-.summary.p {
-    margin: 20px;
-    padding: 10px 0px 10px 0px;
+/** MARK: Sidebar Styles
+*/
+.sidebar-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.1em;
+    font-weight: 600;
 }
 
-p, li {
-    font-family: "Source Code Pro", monospace;
-    font-size: 1.0em;
-    line-height: 1.5;
+.sidebar-project {
+    font-family: "Source Code Pro", serif;
+    color: var(--color-cool-blue);
+    font-size: 0.9em;
+    font-weight: 600;
 }
 
+.sidebar-text {
+    font-family: "Source Serif", serif;
+    font-size: inherit;
+}
+
+/** MARK: Job & Education Groups
+*/
 .job-group {
     display: grid;
     grid-template-rows: 3fr;
@@ -180,7 +170,7 @@ p, li {
         "company"
         "prof-details"
         "list";
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .company {
@@ -202,20 +192,20 @@ p, li {
     grid-area: list;
 }
 
-.dates {
-    font-family: "Source Serif 4", serif;
-    font-style: italic;
-    font-size: 0.9em;
-    color:  rgb(17, 152, 206);
-}
-
 .job-title, .school {
-    color:  rgb(17, 152, 206);
+    color: rgb(17, 152, 206);
     font-weight: 600;
     font-size: 0.9em;
     font-family: "Source Serif 4", serif;
     font-style: italic;
-    }
+}
+
+.dates {
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+    font-size: 0.9em;
+    color: rgb(17, 152, 206);
+}
 
 .technical-proficiencies p:not(:last-child) {
     margin-bottom: -10px;
@@ -248,13 +238,14 @@ p, li {
     font-style: italic;
 }
 
+/** MARK: Footer
+*/
 .footer {
     display: flex;
     align-items: center;
     margin-top: 30px;
     padding-bottom: 80px;
 }
-
 
 .footer::before,
 .footer::after,
@@ -266,18 +257,15 @@ p, li {
     background-color: var(--color-faint-grey);
 }
 
-
 .footer::before,
 .contact::before {
     margin-right: 15px;
 }
 
-
 .footer::after,
 .contact::after {
     margin-left: 15px;
 }
-
 
 .footer span {
     font-family: "Fraunces", serif;
@@ -285,3 +273,48 @@ p, li {
     font-size: 1.2em;
 }
 
+/** MARK: Media Queries
+*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .brand {
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .profile-photo img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .contact {
+        margin-top: 8px;
+    }
+
+    .contact::before,
+    .contact::after {
+        display: none;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    main {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        grid-column: auto;
+        width: 100%;
+        box-shadow: none;
+    }
+}
