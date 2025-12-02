@@ -13,6 +13,8 @@
     --color-light-grey: #888888;
     --color-faint-grey: #d3d3d3;
     --color-cool-blue: #1198ce;
+    --color-profile-outline-pink: #ffd8f7;
+    --color-profile-outline-blue: ;
 }
 
 /** MARK: Base Styles
@@ -76,6 +78,7 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: 1px solid var(--color-profile-outline-pink);
     object-fit: cover;
 }
 
@@ -282,6 +285,17 @@ h2 {
         gap: 8px;
     }
 
+     aside {
+        grid-column: auto;
+        width: 100%;
+        max-width: 500px;      /* Add this line */
+        margin: 30px auto 0 auto; /* Center horizontally */
+        box-shadow: none;
+        border: 1px solid var(--color-faint-grey); /* Ensure border stays */
+        border-radius: 20px;
+        padding: 25px 15px 25px 15px;
+    }
+
     .brand {
         flex-direction: column;
     }
@@ -293,15 +307,15 @@ h2 {
     .profile-photo img {
         width: 96px;
         height: 96px;
+        border: 1px solid var(--color-profile-outline-pink);
     }
 
     .contact {
         margin-top: 8px;
-    }
-
-    .contact::before,
-    .contact::after {
-        display: none;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
 
     .grid-container {
@@ -310,11 +324,5 @@ h2 {
 
     main {
         margin-bottom: 20px;
-    }
-
-    aside {
-        grid-column: auto;
-        width: 100%;
-        box-shadow: none;
     }
 }
