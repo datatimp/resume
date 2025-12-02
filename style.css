@@ -287,11 +287,11 @@ h2 {
 
      aside {
         grid-column: auto;
-        width: 100%;
-        max-width: 500px;      /* Add this line */
-        margin: 30px auto 0 auto; /* Center horizontally */
+        width: 90%;
+        max-width: 500px;
+        margin: 30px auto 0 auto; 
         box-shadow: none;
-        border: 1px solid var(--color-faint-grey); /* Ensure border stays */
+        border: 1px solid var(--color-faint-grey);
         border-radius: 20px;
         padding: 25px 15px 25px 15px;
     }

@@ -53,7 +53,7 @@ _Marketing, Digital & Print Communications_
 - Authored comprehensive training materials for Microsoft Business Central, simplifying complex technical concepts for non-technical sales staff
 - Established quality control protocols for both digital and print media production
 - Implemented and maintained e-commerce functionality through Shopify, collaborating with plugin developers to create custom solutions
-- Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation
+- Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation among enterprise customers including large projects worth over 1.5 million dollars of business
 
 ### SMB Sales Solutions | 2015-2017
 _Owner_
