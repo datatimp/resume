@@ -9,18 +9,26 @@
 /** MARK: Variables
 */
 :root {
-    --color-dark-grey: #525151;
-    --color-light-grey: #888888;
-    --color-faint-grey: #d3d3d3;
-    --color-cool-blue: #1198ce;
-    --color-profile-outline-pink: #ffd8f7;
-    --color-profile-outline-blue: ;
+    --color-grey-500: #525151;
+    --color-grey-300: #888888;
+    --color-grey-100: #d3d3d3;
+    --color-grey-50: #eaedef;
+    --color-red-900: #311e1e;
+    --color-red-100: #ffd8f7;
+    --color-blue-300: #1198ce;
+    --color-text-body: var(--color-red-900);
+    --color-text-link: var(--color-blue-300);
+    --color-dark-grey: var(--color-grey-500);
+    --color-light-grey: var(--color-grey-300);
+    --color-faint-grey: var(--color-grey-100);
+    --color-fainter-grey: var(--color-grey-50);
+    --color-profile-outline-pink: var(--color-red-100);
 }
 
 /** MARK: Base Styles
 */
 a {
-    color: #333;
+    color: var(--color-text-link);
 }
 
 html {
@@ -35,6 +43,7 @@ body {
     background-size: 10%;
     background-color: #eeeeee;
     padding-bottom: 50px;
+    color: var(--color-text-body);
 }
 
 p, li {
@@ -111,15 +120,13 @@ h1 {
     gap: 20px;
 }
 
-main {
-}
-
 aside {
     grid-column: 2;
     border: 1px solid var(--color-faint-grey);
     border-radius: 20px;
     padding: 25px 15px 25px 15px;
     margin-top: 30px;
+    background-color: var(--color-fainter-grey);
     align-self: start;
 }
 
@@ -154,7 +161,6 @@ h2 {
 
 .sidebar-project {
     font-family: "Source Code Pro", serif;
-    color: var(--color-cool-blue);
     font-size: 0.9em;
     font-weight: 600;
 }
@@ -290,9 +296,9 @@ h2 {
         width: 90%;
         max-width: 500px;
         margin: 30px auto 0 auto; 
-        box-shadow: none;
         border: 1px solid var(--color-faint-grey);
         border-radius: 20px;
+        background-color: var(--color-fainter-grey);
         padding: 25px 15px 25px 15px;
     }
 
