@@ -51,7 +51,8 @@ h1 {
 }
 
 img {
-    width: 15px;
+    width: 25px;
+    height: 25px;
 }
 
 .contact {
@@ -147,7 +148,7 @@ h2 {
  font-family: "Source Code Pro", serif;
  color: var(--color-cool-blue);
  font-size: 0.9em;
- font-weight: normal;
+ font-weight: 600;
 }
 
 .sidebar-text {
@@ -176,17 +177,17 @@ p, li {
     display: grid;
     grid-template-rows: 3fr;
     grid-template-areas:
-        "job-title"
+        "company"
         "prof-details"
         "list";
         margin-bottom: 20px;
 }
 
-.job-title {
-    grid-area: job-title;
+.company {
+    grid-area: company;
 }
 
-.job-title, .degree {
+.company, .degree {
     font-family: "Fraunces", serif;
     font-size: 1.1em;
     font-weight: 600;
@@ -208,7 +209,7 @@ p, li {
     color:  rgb(17, 152, 206);
 }
 
-.company, .school {
+.job-title, .school {
     color:  rgb(17, 152, 206);
     font-weight: 600;
     font-size: 0.9em;

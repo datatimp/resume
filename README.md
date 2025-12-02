@@ -3,20 +3,21 @@ datatimp @ gmail.com | [GitHub](https://github.com/datatimp) | [LinkedIn](https:
 
 <br>
 
-Experienced content developer skilled in data analysis and visualization, with a background in creative writing and technical communication. Proficient in Adobe Creative Suite and versed in web development technologies. Strong communicator with a proven track record of cross-functional team collaboration.
+## PROFESSIONAL SUMMARY
+
+Experienced graphic and user interface designer with a background in creative writing and technical communication. Proficient in Adobe Creative Suite and versed in web development technologies. Strong communicator, skilled in visualization and a proven track record of cross-functional team collaboration.
 
 <br>
 
----
-### Core Competencies
----
+## CORE COMPETENCIES
+**Creative & Communication**
 
-**Technical Skills**
-
-- Data Analysis & Visualization (R Programming)
-- Statistical Analysis & Pattern Recognition
-- HTML/CSS Development & Web Implementation
-- Version Control (Git)
+- User Interface Design (Figma)  
+- Visual Design (Adobe Creative Suite)  
+- Print Production & Digital Media Optimization  
+- Cross-functional Team Communication  
+- Technical Writing & Content Development  
+- Creative Writing & Content Development
 
 **Content Development**
 
@@ -25,82 +26,57 @@ Experienced content developer skilled in data analysis and visualization, with a
 - Data Annotation & Content Curation
 - Quality Assurance & Process Improvement
 
-**Creative & Communication**
+**Technical Skills**
 
-- Visual Design (Adobe Creative Suite)
-- Cross-functional Team Communication
-- Technical Writing & Content Development
-- Print Production & Digital Media Optimization
+- HTML/CSS Development & Web Implementation
+- SQL database creation and management
+- Data Analysis & Visualization (R Programming)
+- Version Control (Git)
 
 <br>
 
----
+## PROFESSIONAL EXPERIENCE
 
-### Professional Experience
+### Dime Payments | 2025
+_Lead UI/UX Designer_
 
----
+- Led a full re-design of Dime Payment web platform (desktop and mobile) across customer, merchant and admin user interfaces as Dime shifted from dedicated non-profit services to a wider range of for-profit transaction processing enabling a consistent, intuitive experience and unified brand identity across all user touchpoints
+- Built a scalable design system that standardized components and streamlined the redesign process, reducing development times and enabling a consistent design language and component system across platforms for scalable future development
+- Designed high-fidelity mockups and interactive prototypes using Figma
+- Recognized by engineering teams for producing highly detailed and accessible design documentation in Figma, text files and supporting Github repos, that accelerated development and reduced rework
+- Collaborated with stakeholders and developers to align design vision with business goals and technical deadlines
 
-**Marketing, Data and Communications Specialist** | Atlanta Office Liquidators, Inc. | 2017-2025
+### Atlanta Office Interiors | 2017-2025
+_Marketing, Digital & Print Communications_
 
-- Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation by 35%
+- Orchestrated brand refresh, including creation of digital and print-ready marketing materials with strict quality control standards
 - Authored comprehensive training materials for Microsoft Business Central, simplifying complex technical concepts for non-technical sales staff
-- Implemented and maintained e-commerce functionality through Shopify, collaborating with plugin developers to create custom solutions
-- Orchestrated brand refresh, including creation of print-ready marketing collateral with strict quality control standards
 - Established quality control protocols for both digital and print media production
+- Implemented and maintained e-commerce functionality through Shopify, collaborating with plugin developers to create custom solutions
+- Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation
 
-**Owner** | SMB Sales Solutions | 2015-2017
+### SMB Sales Solutions | 2015-2017
+_Owner_
 
 - Designed visual communication systems including logo design and brand identity packages for diverse client base
 - Created original content structured for optimal audience engagement based on industry-specific data analysis
 - Generated leads through targets campaigns
 
-**Sales Executive** | Intelligis, Inc. | 2014-2015
+### Intelligis, Inc. | 2014-2015
+_Sales Executive_
 
 - Translated complex technical specifications into clear client-facing communications
 - Identified and analyzed customer requirements to develop tailored solution proposals
 
-**Production Assistant** | Entertainment Partners | 2012-2014
-
-- Organized and managed large volumes of production data requiring meticulous attention to detail
-- Ensured consistency and accuracy across multiple information systems
-
-**Language Arts Instructor** | St. Pius X | 2009-2012
-
-- Applied textual analysis methodologies to develop curriculum materials
-- Conducted detailed assessments of student work, providing structured feedback for improvement
-
-**Language Arts Instructor** | Georgia Perimeter College | 2008-2009
-
-- Taught critical thinking and analytical skills through literary analysis
-
-**English Language Instructor** - ECC, Incheon, S. Korea | 2007-2008
-
-- Developed and taught writing curriculum for advanced students
+_Other positions include Language Arts Instructor and English ESL Instructor_
 
 <br>
 
----
-
-### Technical Expertise
-
----
-
-- **Design & Production:** Adobe Suite (Illustrator, Photoshop, InDesign, InCopy, Premiere), Quark Xpress
-- **Development:** HTML, CSS, Git, VS Code
-- **Data & Analysis:** R Studio, Statistical Methods, Data Visualization
-- **Specialized Tools:** Fontforge, Fontlab Studio 5, Aseprite
-
-<br>
-
----
-
-### Education
-
----
+## EDUCATION
 
 **Master of Arts, Language Arts & Literary Studies** | Georgia State University | 2007
 
-- Thesis *From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth*
+- Thesis: [_From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth_](https://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1018&context=english_theses)
 - Specialized in pattern recognition across textual analysis, critical theory, and cultural trends
 
 **Bachelor of Arts, Film & Television Production** | University of Georgia | 2000
@@ -108,17 +84,28 @@ Experienced content developer skilled in data analysis and visualization, with a
 - Focused on cross-medium communication strategies and audience analysis
 - Authored spec-scripts for both television and film
 
----
+<br>
+ 
+## Project Links
+
+### Design Projects | Figma Design File
+[Dime Payment Design System]()
+<br>Complete Design System for Dime Payments UI refresh
+
+[Anki Cards](https://github.com/datatimp/anki-cards)
+<br>Styling complex language databases into user-friendly educational tools
+
+[Portfolio](https://www.behance.net/datatimp#)
+<br>Selected samples from various design projects, both personal and professional
+
+### Data Projects
+
+[BRFSS to SQL](https://github.com/datatimp/brfss)
+<br>Increasing efficiency for working with the CDC’s BRFSS datasets
 
 ### Writing Samples
+[Looking Glass](https://datatimp.github.io/resume/assets/docs/lookingGlassManual_screen.pdf)
+<br>User manual for Looking Glass, an un-released non-linear video editing suite
 
----
-
-**Technical Writing**
-- [The user manual for *Looking Glass*](/assets/docs/lookingGlassManual_screen.pdf), un-released non-linear video editing software. Designed and written for print and screen on Quark Xpress.
-
-**Academic Writing**
-- [*From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth*](assets/docs/thesis_ScholarWorks_reduced.pdf)
-
-**Creative Writing**
-- [Spec script](assets/docs/wings_tastesLikeChicken_specScript.html) for the multi-camera sitcom, *Wings* (1990-1997)
+[Master's Thesis](https://datatimp.github.io/resume/assets/docs/thesis_ScholarWorks_reduced.pdf)
+<br>Explores the relationship between post-modern body politics and superhero popularity
