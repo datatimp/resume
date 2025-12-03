@@ -41,7 +41,7 @@ Experienced graphic and user interface designer with a background in creative wr
 _Lead UI/UX Designer_
 
 - Led a full re-design of Dime Payment web platform (desktop and mobile) across customer, merchant and admin user interfaces as Dime shifted from dedicated non-profit services to a wider range of for-profit transaction processing enabling a consistent, intuitive experience and unified brand identity across all user touchpoints
-- Built a scalable design system that standardized components and streamlined the redesign process, reducing development times and enabling a consistent design language and component system across platforms for scalable future development
+- Built a [scalable design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) that standardized components and streamlined the redesign process, reducing development times and enabling a consistent design language and component system across platforms for scalable future development
 - Designed high-fidelity mockups and interactive prototypes using Figma
 - Recognized by engineering teams for producing highly detailed and accessible design documentation in Figma, text files and supporting Github repos, that accelerated development and reduced rework
 - Collaborated with stakeholders and developers to align design vision with business goals and technical deadlines
@@ -89,7 +89,7 @@ _Other positions include Language Arts Instructor and English ESL Instructor_
 ## Project Links
 
 ### Design Projects | Figma Design File
-[Dime Payment Design System]()
+[Dime Payment Design System](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1)
 <br>Complete Design System for Dime Payments UI refresh
 
 [Anki Cards](https://github.com/datatimp/anki-cards)
