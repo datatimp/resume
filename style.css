@@ -43,6 +43,7 @@ body {
     background-size: 10%;
     background-color: #eeeeee;
     padding-bottom: 50px;
+    font-size: 16px;
     color: var(--color-text-body);
 }
 
@@ -94,6 +95,7 @@ header {
 h1 {
     margin: 0;
     text-align: left;
+    white-space: nowrap;
 }
 
 .first-name, .last-name {
@@ -119,6 +121,18 @@ h1 {
     grid-template-columns: 3fr 1fr;
     gap: 20px;
 }
+
+aside::before {
+        content: 'Project Links';
+        display: block;
+        font-family: "Fraunces", serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        border-top: 3px solid var(--color-dark-grey);
+        border-bottom: 1px solid var(--color-dark-grey);
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 1.5rem;
+    }
 
 aside {
     grid-column: 2;
@@ -284,22 +298,37 @@ h2 {
 
 /** MARK: Media Queries
 */
+
+
 @media (max-width: 768px) {
+    body  {
+        padding: 0px 50px 0px 50px;
+    }
+
     header {
         flex-direction: column;
         align-items: center;
         gap: 8px;
     }
 
-     aside {
+  aside::before {
+        content: 'Project Links';
+        display: block;
+        font-family: "Fraunces", serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        border-top: 3px solid var(--color-dark-grey);
+        border-bottom: 1px solid var(--color-dark-grey);
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 1.5rem;
+    }
+
+    aside {
         grid-column: auto;
-        width: 90%;
-        max-width: 500px;
-        margin: 30px auto 0 auto; 
-        border: 1px solid var(--color-faint-grey);
-        border-radius: 20px;
-        background-color: var(--color-fainter-grey);
-        padding: 25px 15px 25px 15px;
+        border: none;
+        border-radius: none;
+        background-color: transparent;
+        padding: 20px 0 0 0;
     }
 
     .brand {
@@ -308,6 +337,7 @@ h2 {
 
     h1 {
         text-align: center;
+        font-size: 1.5rem;
     }
 
     .profile-photo img {
@@ -316,19 +346,21 @@ h2 {
         border: 1px solid var(--color-profile-outline-pink);
     }
 
-    .contact {
-        margin-top: 8px;
-        justify-content: center;
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-
     .grid-container {
         display: block;
     }
 
     main {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0px 10px 0px 10px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
     }
 }
