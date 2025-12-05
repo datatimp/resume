@@ -169,6 +169,10 @@ h2 {
     font-weight: 600;
 }
 
+.core-competencies p {
+    margin-top: 1px;
+}
+
 /** MARK: Sidebar Styles
 */
 .sidebar-title {
