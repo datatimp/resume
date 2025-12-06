@@ -1,37 +1,17 @@
+
 # TIM PEVEY
-datatimp @ gmail.com | [GitHub](https://github.com/datatimp) | [LinkedIn](https://www.linkedin.com/in/timothypevey/)
+
+<i class="fa-solid fa-envelope"></i> [email](mailto:datatimp@gmail.com)
+
+: <span class="iconify" data-icon="tabler:brand-linkedin"></span> [LinkedIn](https://www.linkedin.com/in/timothypevey/)
+: <span class="iconify" data-icon="tabler:brand-github"></span> [GitHub](https://github.com/datatimp)
+: <span class="iconify" data-icon="tabler:brand-behance"></span> [Behance](https://www.behance.net/datatimp#)
 
 <br>
 
 ## PROFESSIONAL SUMMARY
 
-Experienced graphic and user interface designer with a background in creative writing and technical communication. Proficient in Adobe Creative Suite and versed in web development technologies. Strong communicator, skilled in visualization and a proven track record of cross-functional team collaboration.
-
-<br>
-
-## CORE COMPETENCIES
-**Creative & Communication**
-
-- User Interface Design (Figma)  
-- Visual Design (Adobe Creative Suite)  
-- Print Production & Digital Media Optimization  
-- Cross-functional Team Communication  
-- Technical Writing & Content Development  
-- Creative Writing & Content Development
-
-**Content Development**
-
-- Taxonomy Creation & Content Classification
-- Documentation & Training Material Development
-- Data Annotation & Content Curation
-- Quality Assurance & Process Improvement
-
-**Technical Skills**
-
-- HTML/CSS Development & Web Implementation
-- SQL database creation and management
-- Data Analysis & Visualization (R Programming)
-- Version Control (Git)
+Lead UI/UX designer with experience architecting scalable, developer-ready component frameworks for multi-role web platforms. Skilled in creating production-grade design systems, high-fidelity interfaces, and documentation that accelerates engineering velocity, reduces design debt, and supports scalable product growth.
 
 <br>
 
@@ -40,11 +20,10 @@ Experienced graphic and user interface designer with a background in creative wr
 ### Dime Payments | 2025
 _Lead UI/UX Designer_
 
-- Led a full re-design of Dime Payment web platform (desktop and mobile) across customer, merchant and admin user interfaces as Dime shifted from dedicated non-profit services to a wider range of for-profit transaction processing enabling a consistent, intuitive experience and unified brand identity across all user touchpoints
-- Built a [scalable design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) that standardized components and streamlined the redesign process, reducing development times and enabling a consistent design language and component system across platforms for scalable future development
-- Designed high-fidelity mockups and interactive prototypes using Figma
-- Recognized by engineering teams for producing highly detailed and accessible design documentation in Figma, text files and supporting Github repos, that accelerated development and reduced rework
-- Collaborated with stakeholders and developers to align design vision with business goals and technical deadlines
+ - Developed [Figma design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) for multi-role fintech platform, defining component standards, layout rules, and scalable Figma libraries (50+ reusable components), which reduced development time and supported future platform expansions.
+ - Designed high-fidelity mockups and interactive prototypes for customer, merchant, and admin workflows, translating business requirements into intuitive, production-ready UI.
+ - Produced developer-focused documentation (Figma, text files, GitHub repos) that improved handoff clarity, accelerated implementation, and reduced rework while ensuring cross-platform consistency.
+- Aligned customer, merchant, and admin experiences through component governance and shared interaction patterns, reducing design drift and enabling increased consistency during development.
 
 ### Atlanta Office Interiors | 2017-2025
 _Marketing, Digital & Print Communications_
@@ -68,7 +47,18 @@ _Sales Executive_
 - Translated complex technical specifications into clear client-facing communications
 - Identified and analyzed customer requirements to develop tailored solution proposals
 
-_Other positions include Language Arts Instructor and English ESL Instructor_
+_Additional: Language Arts/ESL Instructor (various, 2007–2014)_
+
+## CORE COMPETENCIES
+
+** UI/UX & Visual **
+Figma (prototypes, design systems), Adobe Creative Suite (graphic design, print/digital optimization)                    
+
+** Content & Strategy **
+Technical writing/documentation, taxonomy development and content classification, audience analytics for targeted campaigns
+
+** Technical & Dev **
+HTML/CSS implementation, SQL database management, Git version control, R programming data visualization and analysis
 
 <br>
 
@@ -88,20 +78,20 @@ _Other positions include Language Arts Instructor and English ESL Instructor_
  
 ## Project Links
 
-### Design Projects | Figma Design File
+### Design Projects
 [Dime Payment Design System](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1)
-<br>Complete Design System for Dime Payments UI refresh
+<br>Comprehensive UI refresh for fintech scalability
 
 [Anki Cards](https://github.com/datatimp/anki-cards)
-<br>Styling complex language databases into user-friendly educational tools
+<br>Styled complex language DBs into intuitive educational tools
 
 [Portfolio](https://www.behance.net/datatimp#)
-<br>Selected samples from various design projects, both personal and professional
+<br>Curated design samples (personal & professional)
 
 ### Data Projects
 
 [BRFSS to SQL](https://github.com/datatimp/brfss)
-<br>Increasing efficiency for working with the CDC’s BRFSS datasets
+<br>Streamlined CDC dataset efficiency via SQL/R
 
 ### Writing Samples
 [Looking Glass](https://datatimp.github.io/resume/assets/docs/lookingGlassManual_screen.pdf)
