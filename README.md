@@ -1,11 +1,7 @@
 
 # TIM PEVEY
 
-<i class="fa-solid fa-envelope"></i> [email](mailto:datatimp@gmail.com)
-
-: <span class="iconify" data-icon="tabler:brand-linkedin"></span> [LinkedIn](https://www.linkedin.com/in/timothypevey/)
-: <span class="iconify" data-icon="tabler:brand-github"></span> [GitHub](https://github.com/datatimp)
-: <span class="iconify" data-icon="tabler:brand-behance"></span> [Behance](https://www.behance.net/datatimp#)
+<i class="fa-solid fa-envelope"></i> [email](mailto:datatimp@gmail.com) | <i class="fa-brands fa-square-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/timothypevey/) | <i class="fa-brands fa-github"></i> [GitHub](https://github.com/datatimp) | <i class="fa-brands fa-square-behance"></i> [Behance](https://www.behance.net/datatimp#)
 
 <br>
 
