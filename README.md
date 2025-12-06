@@ -24,24 +24,24 @@ _Lead UI/UX Designer_
 ### Atlanta Office Interiors | 2017-2025
 _Marketing, Digital & Print Communications_
 
-- Orchestrated brand refresh, including creation of digital and print-ready marketing materials with strict quality control standards
-- Authored comprehensive training materials for Microsoft Business Central, simplifying complex technical concepts for non-technical sales staff
-- Established quality control protocols for both digital and print media production
-- Implemented and maintained e-commerce functionality through Shopify, collaborating with plugin developers to create custom solutions
-- Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation among enterprise customers including large projects worth over 1.5 million dollars of business
+- Orchestrated brand refresh, including creation of digital and print-ready marketing materials with strict quality control standards.
+- Authored comprehensive training materials for Microsoft Business Central, simplifying complex technical concepts for non-technical sales staff.
+- Established quality control protocols for both digital and print media production.
+- Implemented and maintained e-commerce functionality through Shopify, collaborating with plugin developers to create custom solutions.
+- Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation among enterprise customers including large projects worth over 1.5 million dollars of business.
 
 ### SMB Sales Solutions | 2015-2017
 _Owner_
 
-- Designed visual communication systems including logo design and brand identity packages for diverse client base
-- Created original content structured for optimal audience engagement based on industry-specific data analysis
-- Generated leads through targets campaigns
+- Designed visual communication systems including logo design and brand identity packages for a diverse client base.
+- Created original content structured for optimal audience engagement based on industry-specific data analytics.
+- Generated leads through targeted campaigns.
 
 ### Intelligis, Inc. | 2014-2015
 _Sales Executive_
 
-- Translated complex technical specifications into clear client-facing communications
-- Identified and analyzed customer requirements to develop tailored solution proposals
+- Translated complex technical specifications into clear client-facing communications.
+- Identified and analyzed customer requirements to develop tailored solution proposals.
 
 _Additional: Language Arts/ESL Instructor (various, 2007–2014)_
 
