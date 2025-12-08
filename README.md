@@ -7,14 +7,14 @@
 
 ## PROFESSIONAL SUMMARY
 
-Lead UI/UX designer with experience architecting scalable, developer-ready component frameworks for multi-role web platforms. Skilled in creating production-grade design systems, high-fidelity interfaces, and documentation that accelerates engineering velocity, reduces design debt, and supports scalable product growth.
+UI/UX designer with experience architecting scalable, developer-ready component frameworks for multi-role web platforms. Skilled in creating production-grade design systems, high-fidelity interfaces, and documentation that accelerates engineering velocity, reduces design debt, and supports scalable product growth.
 
 <br>
 
 ## PROFESSIONAL EXPERIENCE
 
 ### Dime Payments | 2025
-_Lead UI/UX Designer_
+_UI/UX Designer_
 
 - Developed [Figma design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) for multi-role fintech platform, defining component standards, layout rules, and scalable Figma libraries (50+ reusable components), which reduced development time and supported future platform expansions.
 - Designed high-fidelity mockups and interactive prototypes for customer, merchant, and admin workflows, translating business requirements into intuitive, production-ready UI.
