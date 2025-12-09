@@ -92,8 +92,9 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 1px solid var(--color-profile-outline-pink);
+    border: 2px solid transparent;
     object-fit: cover;
+    box-shadow: 3px 4px var(--color-red-900);
 }
 
 h1 {
