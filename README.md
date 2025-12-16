@@ -16,7 +16,7 @@ UI/UX designer with experience architecting scalable, developer-ready component 
 ### Dime Payments | 2025
 _UI/UX Designer_
 
-- Developed [Figma design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) for multi-role fintech platform, defining component standards, layout rules, and scalable Figma libraries (50+ reusable components), which reduced development time and supported future platform expansions.
+- Developed a [full design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) for multi-role fintech platform, defining component standards, layout rules, and scalable Figma libraries (50+ reusable components), which reduced development time and supported future platform expansions.
 - Designed high-fidelity mockups and interactive prototypes for customer, merchant, and admin workflows, translating business requirements into intuitive, production-ready UI.
 - Produced developer-focused documentation (Figma, text files, GitHub repos) that improved handoff clarity, accelerated implementation, and reduced rework while ensuring cross-platform consistency.
 - Aligned customer, merchant, and admin experiences through component governance and shared interaction patterns, reducing design drift and enabling increased consistency during development.
