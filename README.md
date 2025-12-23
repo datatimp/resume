@@ -1,7 +1,7 @@
 
 # TIM PEVEY
 
-<i class="fa-solid fa-envelope"></i> [email](mailto:datatimp@gmail.com) | <i class="fa-brands fa-square-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/timothypevey/) | <i class="fa-brands fa-github"></i> [GitHub](https://github.com/datatimp) | <i class="fa-brands fa-square-behance"></i> [Behance](https://www.behance.net/datatimp#)
+<i class="fa-solid fa-envelope"></i> [Email](mailto:datatimp@gmail.com) | <i class="fa-brands fa-square-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/timothypevey/) | <i class="fa-brands fa-github"></i> [GitHub](https://github.com/datatimp) | <i class="fa-brands fa-square-behance"></i> [Behance](https://www.behance.net/datatimp#)
 
 <br>
 
@@ -16,7 +16,7 @@ UI/UX designer with experience architecting scalable, developer-ready component 
 ### Dime Payments | 2025
 _UI/UX Designer_
 
-- Developed a [full design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) for multi-role fintech platform, defining component standards, layout rules, and scalable Figma libraries (50+ reusable components), which reduced development time and supported future platform expansions.
+- Developed a foundational [design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) for Dime Payments, multi-role fintech platform,  including layout standards, design tokens, and scalable component libraries in Figma, reducing redundant design work and giving developers ready-to-use components for new features.
 - Designed high-fidelity mockups and interactive prototypes for customer, merchant, and admin workflows, translating business requirements into intuitive, production-ready UI.
 - Produced developer-focused documentation (Figma, text files, GitHub repos) that improved handoff clarity, accelerated implementation, and reduced rework while ensuring cross-platform consistency.
 - Aligned customer, merchant, and admin experiences through component governance and shared interaction patterns, reducing design drift and enabling increased consistency during development.
@@ -25,17 +25,17 @@ _UI/UX Designer_
 _Marketing, Digital & Print Communications_
 
 - Orchestrated brand refresh, including creation of digital and print-ready marketing materials with strict quality control standards.
+- Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation among enterprise customers including large projects worth over 1.5 million dollars of business.
 - Authored comprehensive training materials for Microsoft Business Central, simplifying complex technical concepts for non-technical sales staff.
 - Established quality control protocols for both digital and print media production.
 - Implemented and maintained e-commerce functionality through Shopify, collaborating with plugin developers to create custom solutions.
-- Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation among enterprise customers including large projects worth over 1.5 million dollars of business.
 
 ### SMB Sales Solutions | 2015-2017
 _Owner_
 
-- Designed visual communication systems including logo design and brand identity packages for a diverse client base.
-- Created original content structured for optimal audience engagement based on industry-specific data analytics.
-- Generated leads through targeted campaigns.
+- Designed brand identity systems including logos, style guides, and marketing collateral for small business clients.
+- Developed targeted long form and email content based on industry benchmarks, improving client engagement rates.
+- Generated sales leads through targeted campaigns.
 
 ### Intelligis, Inc. | 2014-2015
 _Sales Executive_
