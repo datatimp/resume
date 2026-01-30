@@ -9,6 +9,9 @@
 /** MARK: Variables
 */
 :root {
+    --font-family-mono: "Source Code Pro", monospace;
+    --font-family-serif: "Source Serif 4", serif;
+    --font-family-display: "Fraunces", serif;
     --color-grey-500: #525151;
     --color-grey-300: #888888;
     --color-grey-100: #d3d3d3;
@@ -47,13 +50,14 @@ body {
     color: var(--color-text-body);
 }
 
-p, li {
+p,
+li {
     font-family: "Source Code Pro ", monospace;
     font-size: 1.0rem;
     line-height: 1.25;
 }
 
-.job-group > ul > li {
+.job-group>ul>li {
     margin: 0 0 .75rem 0;
 }
 
@@ -103,8 +107,9 @@ h1 {
     white-space: nowrap;
 }
 
-.first-name, .last-name {
-    font-family: "Fraunces", serif;
+.first-name,
+.last-name {
+    font-family: var(--font-family-display);
     font-size: 2.5em;
 }
 
@@ -119,6 +124,51 @@ h1 {
     height: 25px;
 }
 
+.button-row {
+    display: flex;
+    justify-content: right;
+}
+
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-light-grey);
+    font-family: var(--font-family-mono);
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 7px 14px;
+    border-radius: 6px;
+    margin-left: 10px;
+    border: 1px solid var(--color-light-grey);
+    transition: all .2s ease;
+}
+
+.download-button:hover {
+    background-color: var(--color-light-grey);
+    color: white;
+    border-color: var(--color-light-grey);
+    transition: all .2s ease;
+}
+
+.download-button:hover .download-icon {
+    fill: white;
+    transition: all .2s ease;
+}
+
+.download-icon {
+    fill: var(--color-light-grey);
+    stroke: none;
+    display: flex;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    transition: all .2s ease;
+}
+
 /** MARK: Grid Layout
 */
 .grid-container {
@@ -128,16 +178,16 @@ h1 {
 }
 
 aside::before {
-        content: 'Project Links';
-        display: block;
-        font-family: "Fraunces", serif;
-        font-size: 1.3em;
-        font-weight: 700;
-        border-top: 3px solid var(--color-text-body);
-        border-bottom: 1px solid var(--color-text-body);
-        padding: 10px 0px 10px 0px;
-        margin-bottom: 1.5rem;
-    }
+    content: 'Project Links';
+    display: block;
+    font-family: var(--font-family-display);
+    font-size: 1.3em;
+    font-weight: 700;
+    border-top: 3px solid var(--color-text-body);
+    border-bottom: 1px solid var(--color-text-body);
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 1.5rem;
+}
 
 aside {
     grid-column: 2;
@@ -152,7 +202,7 @@ aside {
 /** MARK: Section Styles
 */
 h2 {
-    font-family: "Fraunces", serif;
+    font-family: var(--font-family-display);
     font-size: 1.5em;
     border-top: 3px solid var(--color-text-body);
     border-bottom: 1px solid var(--color-text-body);
@@ -161,11 +211,11 @@ h2 {
 }
 
 .summary p {
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 .sub-title {
-    font-family: "Fraunces", serif;
+    font-family: var(--font-family-display);
     font-size: 1.1em;
     font-weight: 600;
 }
@@ -178,7 +228,7 @@ h2 {
 */
 .sidebar-title {
     display: block;
-    font-family: "Fraunces", serif;
+    font-family: var(--font-family-display);
     font-size: 1.1em;
     font-weight: 600;
     margin: 1rem 0 1rem 0;
@@ -187,7 +237,7 @@ h2 {
 
 .sidebar-project {
     display: block;
-    font-family: "Source Code Pro", serif;
+    font-family: var(--font-family-mono);
     font-size: 0.9em;
     font-weight: 600;
     margin-top: 1.5rem;
@@ -195,7 +245,7 @@ h2 {
 
 .sidebar-text {
     display: block;
-    font-family: "Source Serif 4", serif;
+    font-family: var(--font-family-serif);
     font-size: inherit;
     margin-bottom: 1rem;
 }
@@ -216,8 +266,9 @@ h2 {
     grid-area: company;
 }
 
-.company, .degree {
-    font-family: "Fraunces", serif;
+.company,
+.degree {
+    font-family: var(--font-family-display);
     font-size: 1.1em;
     font-weight: 600;
     padding-right: 5px;
@@ -231,16 +282,17 @@ h2 {
     grid-area: list;
 }
 
-.job-title, .school {
+.job-title,
+.school {
     color: var(--color-text-link);
     font-weight: 600;
     font-size: 0.9em;
-    font-family: "Source Serif 4", serif;
+    font-family: var(--font-family-serif);
     font-style: italic;
 }
 
 .dates {
-    font-family: "Source Serif 4", serif;
+    font-family: var(--font-family-serif);
     font-style: italic;
     font-size: 0.9em;
     color: var(--color-text-link);
@@ -273,7 +325,7 @@ h2 {
 }
 
 .thesis {
-    font-family: "Source Serif 4", serif;
+    font-family: var(--font-family-serif);
     font-style: italic;
 }
 
@@ -307,7 +359,7 @@ h2 {
 }
 
 .footer span {
-    font-family: "Fraunces", serif;
+    font-family: var(--font-family-display);
     color: var(--color-light-grey);
     font-size: 1.2em;
 }
@@ -317,8 +369,13 @@ h2 {
 
 
 @media (max-width: 768px) {
-    body  {
+    body {
         padding: 0px 25px 0px 25px;
+    }
+
+    .contact a img {
+        width: 35px;
+        height: 35px;
     }
 
     header {
@@ -327,10 +384,28 @@ h2 {
         gap: 8px;
     }
 
-  aside::before {
+    .summary p {
+        padding-top: .5em;
+    }
+
+    .button-row {
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .download-button {
+        box-sizing: border-box;
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    aside::before {
         content: 'Project Links';
         display: block;
-        font-family: "Fraunces", serif;
+        font-family: var(--font-family-display);
         font-size: 1.5em;
         font-weight: 700;
         border-top: 3px solid var(--color-text-body);
@@ -352,13 +427,13 @@ h2 {
     }
 
     .sidebar-project {
-        font-family: "Source Serif 4", serif;
+        font-family: var(--font-family-serif);
         font-size: 1rem;
         margin: 1rem 0 0 0;
     }
 
     .sidebar-text {
-        font-family: "Source Code Pro", monospace;
+        font-family: var(--font-family-mono);
         font-size: 1rem;
         margin: 0 0 1rem 0;
     }
