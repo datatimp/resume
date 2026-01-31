@@ -42,9 +42,7 @@ html {
 }
 
 body {
-    background-image: url("https://raw.githubusercontent.com/WrinkleRelease/resume/refs/heads/main/assets/images/whitepaper.jpg");
-    background-size: 10%;
-    background-color: #eeeeee;
+    background-color: #f7f7f7;
     padding-bottom: 50px;
     font-size: 16px;
     color: var(--color-text-body);
@@ -161,8 +159,6 @@ h1 {
 .download-icon {
     fill: var(--color-light-grey);
     stroke: none;
-    display: flex;
-    align-items: center;
     width: 10px;
     height: 10px;
     margin-right: 6px;
