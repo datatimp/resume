@@ -1,5 +1,4 @@
---- 
----
+--- ---
 /* Tim Pevey Resume 2025 */
 
 /** MARK: Fonts
@@ -556,4 +555,25 @@ h2 {
     .sidebar-title {
         page-break-inside: avoid;
     }
+
+    /* Swap Icons for Text Links in Print */
+    .contact {
+        display: none !important;
+    }
+
+    .contact-print {
+        display: flex !important;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: var(--font-family-mono);
+        font-size: 0.9em;
+        color: var(--color-grey-500);
+    }
+}
+
+/* Hide print contact on screen */
+.contact-print {
+    display: none;
 }
