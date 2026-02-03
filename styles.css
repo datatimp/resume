@@ -158,7 +158,7 @@ h1 {
 
 .download-icon {
     fill: var(--color-light-grey);
-    stroke: none;
+    stroke: none;                       
     width: 10px;
     height: 10px;
     margin-right: 6px;
