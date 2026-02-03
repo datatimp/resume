@@ -1,5 +1,5 @@
 title: Tim Pevey Resume
 description: Resume of Tim Pevey, UI/UX Designer
-theme: jekyll-theme-prime # strict theme is not required, but good practice. We will use custom layout.
+theme: jekyll-theme-prime
 url: "https://datatimp.github.io"
-baseurl: "/resume" # Assuming this is served at /resume based on repo name, but user info says 'repos/resume'. Keep blank or adjust if needed. Usually best to leave blank for user repos, but this seems to be a project repo.
+baseurl: "/resume"
