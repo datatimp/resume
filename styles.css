@@ -1,4 +1,4 @@
---- 
+---
 ---
 /* Tim Pevey Resume 2025 */
 
@@ -476,16 +476,17 @@ h2 {
     @page {
         margin: 0.5in;
         size: auto;
-        /* auto allows user to select paper size, but typically A4/Letter */
     }
 
     body {
         background-color: white;
         color: black;
         width: 100%;
-        max-width: 100%;
         margin: 0;
         padding: 0;
+        font-size: 11pt;
+        /* Standardize print font size */
+        line-height: 1.3;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
@@ -501,36 +502,34 @@ h2 {
         display: grid;
         grid-template-columns: 3fr 1fr;
         gap: 20px;
-        page-break-inside: avoid;
+        /* page-break-inside: avoid;  <-- REMOVED: This was causing the blank first page */
     }
 
     aside {
         background-color: var(--color-fainter-grey) !important;
-        /* ensure background prints */
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
         margin-top: 0;
         height: auto;
         border: 1px solid var(--color-faint-grey);
-        /* Keep border for structure */
+        padding: 15px !important;
+        /* Ensure padding is enforced */
+        box-sizing: border-box;
+        /* Keep padding inside width */
     }
 
-    /* Prevent breaking inside elements */
+    /* Prevent breaking inside specific elements, but allow flow */
     .job-group,
     .school-group {
         page-break-inside: avoid;
-    }
-
-    section {
-        /* Trying to let sections break if they are long, but groups shouldn't */
+        margin-bottom: 20px;
     }
 
     h1,
     h2,
-    h3,
-    h4,
-    h5 {
+    h3 {
         page-break-after: avoid;
+        page-break-inside: avoid;
     }
 
     /* Ensure Sidebar content flows well */
