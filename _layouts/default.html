@@ -5,30 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.data.resume.name }} Resume</title>
-    <link rel="stylesheet" href="{{ " /styles.css" | relative_url }}">
-    <link rel="shortcut icon" type="image/png" href="{{ " /assets/icons/favicon.png" | relative_url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ " /assets/icons/apple-touch-icon.png" | relative_url }}">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
 </head>
 
 <body>
     <header>
         <div class="brand">
             <div class="profile-photo">
-                <img src="{{ " /assets/images/tim-headshot-01c-circle-sm.png" | relative_url }}"
-                    alt="{{ site.data.resume.name }}">
+                <img src="assets/images/tim-headshot-01c-circle-sm.png" alt="{{ site.data.resume.name }}">
             </div>
             <h1><span class="first-name">Tim</span><span class="last-name"> Pevey</span></h1>
         </div>
     </header>
     <div class="contact">
-        <span class="email"><a href="mailto:{{ site.data.resume.email }}"><img src="{{ " /assets/icons/email.svg" |
-                    relative_url }}" alt="email"></a></span>
-        <span class="github"><a href="{{ site.data.resume.social.github }}" target="_blank" alt="GitHub"><img src="{{ "
-                    /assets/icons/github.svg" | relative_url }}"></a></span>
+        <span class="email"><a href="mailto:{{ site.data.resume.email }}"><img src="assets/icons/email.svg"
+                    alt="email"></a></span>
+        <span class="github"><a href="{{ site.data.resume.social.github }}" target="_blank" alt="GitHub"><img
+                    src="assets/icons/github.svg"></a></span>
         <span class="behance"><a href="{{ site.data.resume.social.behance }}" target="_blank" alt="Behance"><img
-                    src="{{ " /assets/icons/behance.svg" | relative_url }}"></a></span>
+                    src="assets/icons/behance.svg"></a></span>
         <span class="linkedin"><a href="{{ site.data.resume.social.linkedin }}" target="_blank" alt="LinkedIn"><img
-                    src="{{ " /assets/icons/linkedin.svg" | relative_url }}"></a></span>
+                    src="assets/icons/linkedin.svg"></a></span>
     </div>
 
     <!-- The original Download PDF was here. Now we use a Print button which triggers window.print() -->
