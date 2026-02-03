@@ -1,0 +1,97 @@
+name: Tim Pevey
+role: UI/UX Designer
+email: datatimp@gmail.com
+social:
+  github: https://www.github.com/datatimp
+  behance: https://www.behance.net/datatimp
+  linkedin: https://www.linkedin.com/in/timothypevey/
+
+summary: |
+  UI/UX designer with experience architecting scalable, developer-ready component frameworks for multi-role web platforms. Skilled in creating production-grade design systems, high-fidelity interfaces, and documentation that accelerates engineering velocity, reduces design debt, and supports scalable product growth.
+
+experience:
+  - company: Dime Payments
+    role: UI/UX Designer
+    dates: 2025
+    details:
+      - Developed a foundational [design system](https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1) for Dime Payments, a multi-role fintech platform, including layout standards, design tokens, and scalable component libraries in Figma, which reduced redundant design work and gave developers ready-to-use components for new features.
+      - Designed high-fidelity mockups and interactive prototypes for customer, merchant, and admin workflows, translating business requirements into intuitive, production-ready UI.
+      - Produced developer-focused documentation (Figma, text files, GitHub repos) that improved handoff clarity, accelerated implementation, and reduced rework while ensuring cross-platform consistency.
+      - Aligned customer, merchant, and admin experiences through component governance and shared interaction patterns, reducing design drift and enabling increased consistency during development.
+
+  - company: Atlanta Office Liquidators, Inc.
+    role: Marketing, Digital & Print Communications
+    dates: 2017-2025
+    details:
+      - Orchestrated brand refresh, including creation of digital and print-ready marketing materials with strict quality control standards.
+      - Analyzed customer data to identify market trends and developed targeted email campaigns, increasing lead generation among enterprise customers including large projects worth over 1.5 million dollars of business.
+      - Authored comprehensive training materials for Microsoft Business Central, simplifying complex technical concepts for non-technical sales staff.
+      - Established quality control protocols for both digital and print media production.
+      - Implemented and maintained e-commerce functionality through Shopify, collaborating with plugin developers to create custom solutions.
+
+  - company: SMB Sales Solutions
+    role: Owner
+    dates: 2015-2017
+    details:
+      - Designed brand identity systems including logos, style guides, and marketing collateral for small business clients.
+      - Developed targeted long form and email content based on industry benchmarks, improving client engagement rates
+      - Generated sales leads through targeted campaigns.
+
+  - company: Intelligis
+    role: Sales Executive
+    dates: 2014-2015
+    details:
+      - Translated complex technical specifications into clear client-facing communications.
+      - Identified and analyzed customer requirements to develop tailored solution proposals.
+    footer: "Additional: Language Arts/ESL Instructor (various, 2007–2014)"
+
+education:
+  - degree: Master of Arts, Language Arts & Literary Studies
+    school: Georgia State University
+    dates: 2007
+    details:
+      - "Thesis: [From Superman to Superbland: The Man of Steel's Popular Decline Among Postmodern Youth](https://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1018&context=english_theses)"
+      - Specialized in pattern recognition across textual analysis, critical theory, and cultural trends
+
+  - degree: Bachelor of Arts, Film & Television Production
+    school: University of Georgia
+    dates: 2000
+    details:
+      - Focused on cross-medium communication strategies and audience analytics
+      - Authored spec-scripts for both television and film
+
+competencies:
+  - title: UI/UX & Visual
+    content: Figma (prototypes, design systems), Adobe Creative Suite (graphic design, print/digital optimization)
+  - title: Content & Strategy
+    content: Technical writing/documentation, taxonomy development and content classification, audience analytics for targeted campaigns
+  - title: Technical & Dev
+    content: HTML/CSS implementation, SQL database management, Git version control, R programming data visualization and analysis
+
+sidebar:
+  design_projects:
+    - title: Dime Design System (Figma)
+      url: https://www.figma.com/design/QaE6JEJ1vNFc1Y8XOrcogl/Dime-Payment-Design-System?m=auto&t=ZEBJ9t8beEsmTjA9-1
+      description: Comprehensive UI refresh for fintech scalability
+    - title: Palettary
+      url: https://datatimp.github.io/palettary/
+      description: Web apps that aid designers working in Figma. Hosts named color primitive palettes for import into Figma and features a Figma file thumbnail generator.
+    - title: Anki Cards
+      url: https://github.com/datatimp/anki-cards
+      description: Styled complex language DBs into intuitive educational tools
+    - title: Portfolio
+      url: https://www.behance.net/datatimp#
+      description: Curated design samples (personal & professional)
+
+  data_projects:
+    - title: BRFSS to SQL
+      url: https://github.com/datatimp/brfss
+      description: Streamlined CDC dataset efficiency via SQL/R
+
+  writing_samples:
+    - title: Looking Glass
+      url: assets/docs/lookingGlassManual_screen.pdf
+      description: User manual for *Looking Glass*, an un-released non-linear video editing suite
+    - title: Master's Thesis
+      url: assets/docs/thesis_ScholarWorks_reduced.pdf
+      description: explores the relationship between post-modern body politics and superhero popularity

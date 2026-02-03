@@ -467,3 +467,74 @@ h2 {
         font-size: 1.2rem;
     }
 }
+
+/** MARK: Print Styles
+*/
+@media print {
+    @page {
+        margin: 0.5in;
+        size: auto;
+        /* auto allows user to select paper size, but typically A4/Letter */
+    }
+
+    body {
+        background-color: white;
+        color: black;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Hide non-print elements */
+    .button-row,
+    .download-button {
+        display: none !important;
+    }
+
+    /* Adjust Grid for Paper */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 20px;
+        page-break-inside: avoid;
+    }
+
+    aside {
+        background-color: var(--color-fainter-grey) !important;
+        /* ensure background prints */
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        margin-top: 0;
+        height: auto;
+        border: 1px solid var(--color-faint-grey);
+        /* Keep border for structure */
+    }
+
+    /* Prevent breaking inside elements */
+    .job-group,
+    .school-group {
+        page-break-inside: avoid;
+    }
+
+    section {
+        /* Trying to let sections break if they are long, but groups shouldn't */
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        page-break-after: avoid;
+    }
+
+    /* Ensure Sidebar content flows well */
+    .sidebar-project,
+    .sidebar-text,
+    .sidebar-title {
+        page-break-inside: avoid;
+    }
+}
