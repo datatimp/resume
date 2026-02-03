@@ -1,5 +1,4 @@
-# Resume
-## TIM PEVEY
+# Tim Pevey Resume
 
 Jekyll-powered resume site.
 
