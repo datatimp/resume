@@ -1,0 +1,11 @@
+{
+  "name": "resume-pdf-generator",
+  "version": "1.0.0",
+  "description": "LaTeX-based PDF generation for Tim Pevey resume",
+  "scripts": {
+    "pdf": "node scripts/generate-pdf.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

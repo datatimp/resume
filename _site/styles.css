@@ -1,5 +1,3 @@
---- 
----
 /* Tim Pevey Resume 2025 */
 
 /** MARK: Fonts
@@ -468,4 +466,290 @@ h2 {
     h1 {
         font-size: 1.2rem;
     }
+}
+
+/** MARK: Print Styles
+*/
+
+/* Hide QR code on screen */
+.qr-code {
+    display: none;
+}
+
+@media print {
+    /* Print accent color */
+    :root {
+        --color-print-accent: #972019;
+    }
+
+    @page {
+        margin: 0.5in;
+        size: letter;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 10pt;
+        line-height: 1.3;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Hide non-print elements */
+    .button-row,
+    .download-button,
+    .profile-photo,
+    .no-print {
+        display: none !important;
+    }
+
+    /* Change all blue text to red */
+    a,
+    .job-title,
+    .school,
+    .dates {
+        color: var(--color-print-accent) !important;
+    }
+
+    /* Keep contact links grey */
+    .contact-print a {
+        color: var(--color-grey-500) !important;
+    }
+
+    /* Add link icon to sidebar project links */
+    .sidebar-project::after {
+        content: " ↗";
+        font-size: 0.8em;
+    }
+
+    /* --- HEADER WITH QR CODE --- */
+    header {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        width: 100%;
+        border-left: 8px solid var(--color-print-accent);
+        padding-left: 12px;
+        margin-bottom: 5px;
+    }
+
+    .brand {
+        display: block !important;
+        order: 1;
+        flex-grow: 1;
+    }
+
+    h1 {
+        text-align: left !important;
+        font-size: 1.8em;
+        margin: 0;
+    }
+
+    .qr-code {
+        display: block !important;
+        visibility: visible !important;
+        order: 2;
+        width: 70px;
+        height: 70px;
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+
+    .qr-code img {
+        display: block !important;
+        visibility: visible !important;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Fix contact info layout */
+    .contact-print {
+        display: block !important;
+        text-align: left !important;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-family: var(--font-family-mono);
+        font-size: 8pt;
+        color: var(--color-grey-500);
+    }
+
+    .contact-print span {
+        display: inline;
+        margin-right: 8px;
+    }
+
+    .contact-print span:not(:last-child)::after {
+        content: " |";
+        margin-left: 8px;
+        color: var(--color-faint-grey);
+    }
+
+    .profile-photo img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .brand {
+        gap: 15px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    /* --- SECTION HEADERS IN RED --- */
+    h2 {
+        color: var(--color-print-accent) !important;
+        border-top-color: var(--color-print-accent) !important;
+        border-bottom-color: var(--color-print-accent) !important;
+        font-size: 1.1em;
+        margin-top: 1.2em;
+        padding: 6px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    /* Sidebar title in red */
+    aside::before {
+        color: var(--color-print-accent) !important;
+        border-top-color: var(--color-print-accent) !important;
+        border-bottom-color: var(--color-print-accent) !important;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 1em;
+    }
+
+    .sidebar-title {
+        color: var(--color-print-accent) !important;
+        font-size: 0.95em;
+    }
+
+    /* --- LAYOUT: Two column float layout --- */
+    .grid-container {
+        display: block;
+        width: 100%;
+    }
+
+    /* Sidebar Column */
+    aside {
+        width: 32%;
+        float: right;
+        background-color: #f7f7f7 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        margin-top: 0;
+        border: 1px solid var(--color-faint-grey);
+        padding: 12px !important;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    /* Main Content Column */
+    main {
+        width: 66%;
+        float: left;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+
+    /* Clear the float so the footer sits at the bottom */
+    .footer {
+        clear: both;
+        padding-top: 20px;
+        width: 100%;
+        display: none;
+    }
+
+    /* --- TYPOGRAPHY --- */
+    .summary p {
+        padding-top: 0.5em;
+        font-family: var(--font-family-serif);
+        font-size: 10pt;
+    }
+
+    p,
+    li {
+        font-family: var(--font-family-serif);
+        font-size: 9pt;
+        line-height: 1.3;
+    }
+
+    .company,
+    .degree {
+        font-family: var(--font-family-mono);
+        font-size: 10pt;
+    }
+
+    .job-group>ul>li {
+        margin: 0 0 0.5rem 0;
+    }
+
+    .job-group {
+        margin-bottom: 12px;
+    }
+
+    .sub-title {
+        font-size: 0.95em;
+    }
+
+    .core-competencies p {
+        margin-top: 2px;
+        margin-bottom: 8px;
+    }
+
+    /* Sidebar typography */
+    .sidebar-project {
+        font-size: 0.85em;
+        margin-top: 0.8rem;
+    }
+
+    .sidebar-text {
+        font-size: 0.8em;
+        margin-bottom: 0.5rem;
+    }
+
+    aside hr {
+        margin: 0.8rem 0;
+    }
+
+    /* --- PAGE BREAK CONTROLS --- */
+    .job-group,
+    .school-group {
+        page-break-inside: auto;
+        margin-bottom: 15px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+
+    .sidebar-project,
+    .sidebar-text,
+    .sidebar-title {
+        page-break-inside: avoid;
+    }
+
+    /* Swap Icons for Text Links in Print */
+    .contact {
+        display: none !important;
+    }
+
+    /* Hide links underline but keep color */
+    a {
+        text-decoration: none;
+    }
+}
+
+/* Hide print contact on screen */
+.contact-print {
+    display: none;
 }

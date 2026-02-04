@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.data.resume.name }} Resume</title>
-    <link rel="stylesheet" href="/resume/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
     <link rel="shortcut icon" type="image/png" href="assets/icons/favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
 </head>
@@ -30,17 +30,9 @@
                     src="assets/icons/linkedin.svg"></a></span>
     </div>
 
-    <!-- Print-only Contact Info -->
-    <div class="contact-print">
-        <span>{{ site.data.resume.email }}</span>
-        <span>github.com/datatimp</span>
-        <span>behance.net/datatimp</span>
-        <span>linkedin.com/in/timothypevey</span>
-    </div>
-
-    <!-- The original Download PDF was here. Now we use a Print button which triggers window.print() -->
+    <!-- Download PDF button -->
     <div class="button-row">
-        <a href="#" onclick="window.print(); return false;" class="download-button" title="Print to PDF">
+        <a href="assets/docs/TimPevey_resume_2025.pdf" download class="download-button" title="Download PDF">
             <svg class="download-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 14 20">
                 <path
@@ -54,8 +46,7 @@
     <div class="grid-container">
         <main>
             <section class="summary">
-                <p>{{ site.data.resume.summary | markdownify | remove: '
-                <p>' | remove: '</p>' }}</p>
+                <p>{{ site.data.resume.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
             </section>
             <section class="professional-experience">
                 <h2>Professional Experience</h2>

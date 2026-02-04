@@ -1,3 +1,22 @@
 codeswing.json
 assets/docs/spaghettiJunction_ep01_storageWars.html
 archived-resume-data.txt
+
+# Node                      
+  node_modules/                             
+                                                                                                              
+  # LaTeX auxiliary files                                                                                    
+  *.aux                                                                                                       
+  *.log                                                                                                       
+  *.out                                                     
+  *.toc                                                                                                       
+  *.fls                                                                        
+  *.fdb_latexmk
+  *.synctex.gz
+
+  # Generated intermediate file (not the final PDF)
+  assets/docs/TimPevey_resume_2025.tex
+
+  # OS files
+  .DS_Store
+  Thumbs.db
