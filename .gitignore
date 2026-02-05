@@ -20,3 +20,5 @@ archived-resume-data.txt
   # OS files
   .DS_Store
   Thumbs.db
+  _site/
+.jeckyll-cache/
