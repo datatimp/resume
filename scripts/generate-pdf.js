@@ -9,8 +9,8 @@ const ROOT = path.join(__dirname, '..');
 const TEMPLATE = path.join(ROOT, 'templates', 'resume.tex');
 const DATA_FILE = path.join(ROOT, '_data', 'resume.yml');
 const OUTPUT_DIR = path.join(ROOT, 'assets', 'docs');
-const TEX_OUTPUT = path.join(OUTPUT_DIR, 'TimPevey_resume_2025.tex');
-const PDF_OUTPUT = path.join(OUTPUT_DIR, 'TimPevey_resume_2025.pdf');
+const TEX_OUTPUT = path.join(OUTPUT_DIR, 'TimPevey_resume.tex');
+const PDF_OUTPUT = path.join(OUTPUT_DIR, 'TimPevey_resume.pdf');
 
 // Read YAML data
 console.log('Reading resume data...');

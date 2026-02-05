@@ -14,8 +14,8 @@ archived-resume-data.txt
   *.fdb_latexmk
   *.synctex.gz
 
-  # Generated intermediate file (not the final PDF)
-  assets/docs/TimPevey_resume_2025.tex
+  # Generated intermediate file
+  assets/docs/TimPevey_resume.tex
 
   # OS files
   .DS_Store
