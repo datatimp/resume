@@ -1,0 +1,8 @@
+@page {
+    size: letter;
+    margin: 0.5in;
+}
+
+.experience-item {
+    break-inside: avoid;
+}git 

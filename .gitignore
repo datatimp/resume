@@ -1,24 +1,33 @@
+# Node
+node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Generated intermediate files
+assets/docs/TimPevey_resume.tex
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
 codeswing.json
-assets/docs/spaghettiJunction_ep01_storageWars.html
 archived-resume-data.txt
-
-# Node                      
-  node_modules/                             
-                                                                                                              
-  # LaTeX auxiliary files                                                                                    
-  *.aux                                                                                                       
-  *.log                                                                                                       
-  *.out                                                     
-  *.toc                                                                                                       
-  *.fls                                                                        
-  *.fdb_latexmk
-  *.synctex.gz
-
-  # Generated intermediate file
-  assets/docs/TimPevey_resume.tex
-
-  # OS files
-  .DS_Store
-  Thumbs.db
-  _site/
-.jeckyll-cache/
+.claude/
