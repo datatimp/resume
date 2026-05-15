@@ -68,6 +68,8 @@ competencies:
     content: Technical writing/documentation, taxonomy development and content classification, audience analytics for targeted campaigns
   - title: Technical & Dev
     content: HTML/CSS implementation, SQL database management, Git version control, R programming data visualization and analysis
+  - title: AI & Workflows
+    content: Claude, Claude Code, Antigravity (Google), Figma Make - rapid prototyping, design ideation, code troubleshooting, documentation drafting
 
 sidebar:
   design_projects:
